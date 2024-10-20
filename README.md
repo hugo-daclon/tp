@@ -36,7 +36,7 @@ pip install --upgrade pip
 pip install pyspark
 ```
 
-Note : À chaque fois que vous ouvrirez un nouveau terminal, il sera nécessaire d'activer l'environnement virtuel Python avec la commande : 
+Note : À chaque fois que vous ouvrirez un nouveau terminal, il sera nécessaire d'activer l'environnement virtuel Python avec la commande :
 
 ```bash
 source spark-env/bin/activate
@@ -123,6 +123,7 @@ Quelques documentations utiles :
 * https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
 * https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf
 
+<!--
 ## Rendu
 
 L'évaluation se portera sur :
@@ -151,4 +152,4 @@ Toujours pour votre analyse, voici une page concernant les jointures :
 ## Format du rendu attendu
 
 * Scripts et code source
-* Compte rendu au format PDF
+* Compte rendu au format PDF -->
