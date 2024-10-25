@@ -2,7 +2,6 @@ all:
 
 init:
 	sudo apt update
-	sudo apt install openjdk-11-jdk
 	sudo apt install python3 python3-venv
 	python3 -m venv spark-env
 	@echo "Run :"
