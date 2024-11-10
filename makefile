@@ -46,5 +46,14 @@ clean: deactivate
 	rm -rf dataset/zip
 	rm -rf output/
 
-mr-proper: clean
+mr-proper: clean bonus-clean
 	rm -rf spark-env/
+
+bonus: bonus-download
+
+bonus-download:
+	mkdir -p dataset/bonus
+	wget "https://data.nantesmetropole.fr/api/explore/v2.1/shared/datasets/224400028_suivi-qualite-eaux-superficielles-loire-atlantique-stations-departemen@loireatlantique/exports/csv?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B" -O dataset/bonus/data.csv
+
+bonus-clean:
+	rm -rf dataset/bonus

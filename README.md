@@ -153,3 +153,24 @@ Toujours pour votre analyse, voici une page concernant les jointures :
 
 * Scripts et code source
 * Compte rendu au format PDF -->
+
+## Sujet pour le plaisir
+
+### Récupération des données
+
+```sh
+make bonus
+```
+
+### Exécution du code sample
+
+```sh
+python3 bonus-sample.py
+```
+
+### Questions
+
+* Quelle est la station avec le plus de mesures en 2022 ?
+* Quelle est la mesure moyenne de Nitrites dans la station L'ERDRE A LA CHAPELLE SUR ERDRE ?
+* Quelle est la station ayant la plus haute température moyenne en 2019 ?
+* Quelle est la commune regroupant le plus de stations ?
