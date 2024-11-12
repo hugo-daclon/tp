@@ -12,7 +12,7 @@ init:
 
 activate:
 	@echo "Run :"
-	@echo "   source spark-env/bin/activate"
+	@echo "   conda activate nosql"
 
 ################
 # Part 1
