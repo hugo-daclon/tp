@@ -1,3 +1,4 @@
+<!-- LTeX: language=fr -->
 # Polytech Nantes - Mini-projet
 
 ## Prérequis
@@ -46,7 +47,6 @@ source spark-env/bin/activate
 
 L'objectif de cette étape est de télécharger les fichiers de données nécessaires à la réalisation de ce mini-projet :
 
-
 ```bash
 make part1
 ```
@@ -54,29 +54,29 @@ make part1
 Cela devrait :
 
 * Télécharger les ZIP de données dans le répertoire `dataset/zip/`
-* Extraire les données des ZIP dans le répertoire `dataset/raw/`
+* Extraire les données des fichiers ZIP dans le répertoire `dataset/raw/`
 
-Pour information, la documentation sur les données est disponible ici : http://data.gdeltproject.org/documentation/GDELT-Data_Format_Codebook.pdf
+Pour information, la documentation sur les données est disponible ici : <http://data.gdeltproject.org/documentation/GDELT-Data_Format_Codebook.pdf>.
 
 ## Part 2 - Work count example
 
-1. Exécuter la version wordcount Python :
+1. Exécuter la version WordCount Python :
 
-```bash
-python3 part2-wordcount-hamlet-python.py
-```
+   ```bash
+   python3 part2-wordcount-hamlet-python.py
+   ```
 
-2. Exécuter la version wordcount PySpark (version RDD) :
+2. Exécuter la version WordCount PySpark (version RDD) :
 
-```bash
-spark-submit part2-wordcount-hamlet-pyspark.py
-```
+   ```bash
+   spark-submit part2-wordcount-hamlet-pyspark.py
+   ```
 
-3. Exécuter la version wordcount PySpark (version Dataframe) :
+3. Exécuter la version WordCount PySpark (version Dataframe) :
 
-```bash
-spark-submit part2-wordcount-hamlet-pyspark-2.py
-```
+   ```bash
+   spark-submit part2-wordcount-hamlet-pyspark-2.py
+   ```
 
 4. Comparer les résultats.
 5. Adapter les scripts ci-dessus pour filtrer les mots commençant par la lettre `m`.
@@ -84,8 +84,8 @@ spark-submit part2-wordcount-hamlet-pyspark-2.py
 
 Quelques documentations utiles :
 
-* https://spark.apache.org/docs/latest/quick-start.html
-* https://spark.apache.org/docs/latest/rdd-programming-guide.html
+* <https://spark.apache.org/docs/latest/quick-start.html>
+* <https://spark.apache.org/docs/latest/rdd-programming-guide.html>
 
 ## Part 3 - Processing data
 
@@ -101,13 +101,15 @@ Rappel concernant pour l'exécution :
 spark-submit part3.py
 ```
 
+<!-- LTeX: language=en -->
 ## Part 4 - Exposing data
 
+<!-- LTeX: language=fr -->
 1. Convertir les données en parquet :
 
-```bash
-spark-submit part4-convert-to-parquet.py
-```
+   ```bash
+   spark-submit part4-convert-to-parquet.py
+   ```
 
 2. Adapter le script `part4.py` pour réaliser la même analyse que la partie précédente, mais à partir de la vue temporaire.
 
@@ -119,11 +121,10 @@ spark-submit part4.py
 
 Quelques documentations utiles :
 
-* https://spark.apache.org/docs/latest/api/python/pyspark.sql.html
-* https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
-* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf
+* <https://spark.apache.org/docs/latest/api/python/pyspark.sql.html>
+* <https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html>
+* <https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf>
 
-<!--
 ## Rendu
 
 L'évaluation se portera sur :
@@ -143,16 +144,16 @@ Quelques idées de sujets d'analyse (vous pouvez choisir votre propre sujet) :
 
 Pour votre analyse, les données référentielles sur notre échantillon de données sont disponibles ici :
 
-* https://github.com/carrillo/Gdelt/tree/master/resources/staticTables
+* <https://github.com/carrillo/Gdelt/tree/master/resources/staticTables>
 
 Toujours pour votre analyse, voici une page concernant les jointures :
 
-* https://luminousmen.com/post/introduction-to-pyspark-join-types
+* <https://luminousmen.com/post/introduction-to-pyspark-join-types>
 
 ## Format du rendu attendu
 
 * Scripts et code source
-* Compte rendu au format PDF -->
+* Compte rendu au format PDF
 
 ## Sujet pour le plaisir
 
