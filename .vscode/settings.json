@@ -1,0 +1,6 @@
+{
+	"makefile.configureOnOpen": false,
+	"autopep8.args": [
+		"--max-line-length=200"
+	],
+}
